@@ -1,0 +1,21 @@
+1) print whole number from 0 to 10 using a while loop and increment operator. (flowchart and program)
+2) research and convert this from while loop to do while loop?
+3) research and convert this from while loop to for loop?
+4) experiement with break?
+5) can we have if condition in a while loop?
+6) what are infinite loops? how can we avoid them in programs?
+An infinite loop (or endless loop) is a sequence of instructions in a computer program which loops endlessly, either due to the loop
+having no terminating condition, having one that can never be met, or one that causes the loop to start over.
+
+Avoiding infinite loops:
+You don't need to write done = False; while not done:. Just loop infinitely (while True) and then use break to exit the loop when you're finished.
+
+input executes the code that the user types (think of it like what the Python shell does). You want raw_input, which returns a string so you need to pass it to int:
+
+numA = int(raw_input("..."))
+
+abs(numB) will compute the absolute value of numB, but won't do anything with it. You need to store the result of that function call in numB, which you do like numB = abs(numB).
+
+The idiom x and True or False is not used in recent Python versions; instead, use True if x else false. However, returning True if x == True else False is the same as just returning x, so do that.
+
+You don't need to loop while x == True. Just loop while x.

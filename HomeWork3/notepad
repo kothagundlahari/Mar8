@@ -1,0 +1,46 @@
+1) write explanation following logical operators and what will it return
+		--> {} && false
+		--> {} || true
+		--> undefined || NaN
+		--> "0" || true
+		--> " " || true
+		--> -Infinity && true
+
+2) typeof operator in javascript? examples on how you use it?
+    The typeof operator returns a string indicating the type of the unevaluated operand.
+    Syntax
+    The typeof operator is followed by its operand:
+    typeof operand
+
+    Type 	                     Result
+    Undefined 	              "undefined"
+    Null 	                    "object" 
+    Boolean 	                "boolean"
+    Number 	                    "number"
+    String 	                    "string"
+    
+3)  Host object (provided by the JS environment) 	Implementation-dependent
+4)  Function object (implements [[Call]] in ECMA-262 terms) 	"function"
+5)  Any other object 	"object"
+
+
+6) add two variables -- both strings and numbers 
+		--> if you substract two variables -- what is the type of result
+		--> if you multiply two variables -- what is the type of result
+		--> if you divide two variables -- what is the type of result
+
+7) operator precedence
+what is this operator precendece?
+
+Multiplication 	left-to-right 	    … * …
+Division 	    left-to-right    	… / …
+Addition 	    left-to-right   	… + …
+Subtraction 	left-to-right 	    … - …
+
+solve following examples
+--> '1' + 2 + 3
+'12'+3
+'123'
+--> '1' + '2' * '3'
+'1'+'6'
+'16'

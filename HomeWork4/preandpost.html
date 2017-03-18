@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        function preadd() {
+            var a = 1,
+                b = 1,
+                c;
+            c = ++a + ++b;
+
+            console.log(c);
+
+        }
+
+        function postadd() {
+            var a = 3,
+                b = 4,
+                c;
+            c = a++ + ++b;
+
+            console.log(c);
+
+
+        }
+
+        function predecre() {
+            var a = 7,
+                b = 4,
+                c;
+            c = a-- + --b;
+
+            console.log(c);
+
+        }
+
+        function postdecre() {
+            var a = 7,
+                b = 4,
+                c;
+            c = --a + --b;
+
+            console.log(c);
+
+        }
+
+        postadd();
+        preadd();
+        predecre();
+        postdecre();
+    </script>
+</body>
+
+</html>
